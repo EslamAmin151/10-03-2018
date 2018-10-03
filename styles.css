@@ -1,0 +1,30 @@
+
+/* html{
+  background-color: black;
+} */
+.container{
+  display: flex;
+  justify-content:space-around;
+  color:white;
+  margin-bottom: 70px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+body {
+  background-color: red;
+  background-image: url(phone.jpg);
+  background-repeat: no-repeat;
+}
+}
+@media (min-width:481px){
+  body{
+    background-color:black;
+  }
+  .background{
+    background-image :url(iPhone-desktop.png);
+    height:300px;
+  }
+
+}
